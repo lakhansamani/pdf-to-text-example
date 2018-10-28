@@ -1,0 +1,12 @@
+{
+  "name": "pdf-to-text-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "pdf-to-text": "^0.0.7"
+  },
+  "scripts": {
+    "convert": "node index.js"    
+  }
+}
