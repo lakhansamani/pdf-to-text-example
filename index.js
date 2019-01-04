@@ -1,4 +1,4 @@
-var pdf_path = "ds-spotfire-platform-overview-final_1546501843015.pdf";
+var pdf_path = "test.pdf";
 var PDFParser = require("pdf2json");
 var pdfParser = new PDFParser(this,1);
 
