@@ -2,7 +2,52 @@
 # yarn lockfile v1
 
 
+async@^2.0.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/async/-/async-2.6.1.tgz#b245a23ca71930044ec53fa46aa00a3e87c6a610"
+  integrity sha512-fNEiL2+AZt6AlAw/29Cr0UDe4sRAHCpEHh54WMz+Bb7QfNcFw4h3loofyJpLeQs4Yx7yuqu/2dLgM5hKOs6HlQ==
+  dependencies:
+    lodash "^4.17.10"
+
+lodash@^4.15.0, lodash@^4.17.10:
+  version "4.17.11"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
+  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+
+minimist@~0.0.1:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
+  integrity sha1-3j+YVD2/lggr5IrRoMfNqDYwHc8=
+
+optimist@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/optimist/-/optimist-0.6.1.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
+  integrity sha1-2j6nRob6IaGaERwybpDrFaAZZoY=
+  dependencies:
+    minimist "~0.0.1"
+    wordwrap "~0.0.2"
+
 pdf-to-text@^0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/pdf-to-text/-/pdf-to-text-0.0.7.tgz#d1cd75b6a9f3782a14bcdf9fe6bc02f74cd7ecd3"
   integrity sha1-0c11tqnzeCoUvN+f5rwC90zX7NM=
+
+pdf2json@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/pdf2json/-/pdf2json-1.1.7.tgz#a09d705ce64d82cbc7d0473d1424963f751bec32"
+  integrity sha1-oJ1wXOZNgsvH0Ec9FCSWP3Ub7DI=
+  dependencies:
+    async "^2.0.1"
+    lodash "^4.15.0"
+    optimist "^0.6.1"
+    xmldom "^0.1.22"
+
+wordwrap@~0.0.2:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
+  integrity sha1-o9XabNXAvAAI03I0u68b7WMFkQc=
+
+xmldom@^0.1.22:
+  version "0.1.27"
+  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.27.tgz#d501f97b3bdb403af8ef9ecc20573187aadac0e9"
+  integrity sha1-1QH5ezvbQDr4757MIFcxh6rawOk=

@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "pdf-to-text": "^0.0.7"
+    "pdf-to-text": "^0.0.7",
+    "pdf2json": "^1.1.7"
   },
   "scripts": {
-    "convert": "node index.js"    
+    "convert": "node index.js"
   }
 }

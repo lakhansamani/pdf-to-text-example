@@ -1,7 +1,10 @@
-var pdfUtil = require('pdf-to-text');
 var pdf_path = "ds-spotfire-platform-overview-final_1546501843015.pdf";
- 
-pdfUtil.pdfToText(pdf_path, function(err, data) {
-  if (err) throw(err);
-  console.log(data); //print text    
+var PDFParser = require("pdf2json");
+var pdfParser = new PDFParser(this,1);
+
+pdfParser.on("pdfParser_dataError", errData => console.error(errData.parserError) );
+pdfParser.on("pdfParser_dataReady", pdfData => {
+  console.log(pdfParser.getRawTextContent());
 });
+
+pdfParser.loadPDF(pdf_path);
